@@ -6,24 +6,24 @@ Living, sourced register of Christian institutions, research centres, ministry n
 
 ## Files
 
-- [`DATABASE.md`](DATABASE.md) — current register plus append-only history log
-- [`reports/`](reports/) — weekly delta reports; prior weeks are never overwritten
+- [`DATABASE.md`](DATABASE.md) — project register plus append-only history
+- [`SOURCES.md`](SOURCES.md) — Option 1 per-source watch ledger (human)
+- [`sources.json`](sources.json) — same ledger (machine)
+- [`SOURCE-WATCH.md`](SOURCE-WATCH.md) — how hashes, ETags, and status changes are recorded
+- [`reports/`](reports/) — weekly deltas; prior weeks are never overwritten
 
 ## Update cadence
 
-A Grok automation runs every Sunday at 07:00 Africa/Johannesburg. Each run is required to:
+A Grok automation runs every Sunday at 07:00 Africa/Johannesburg. Each run must:
 
-1. Search and verify new or changed projects with primary URLs
-2. Add new IDs without reusing old ones
-3. Append a history line to each touched project
-4. Commit an updated `DATABASE.md` and a new `reports/YYYY-MM-DD.md`
+1. Load `sources.json` and re-fetch every watch URL
+2. Record hash / ETag / Last-Modified / HTTP-class changes
+3. Search for new projects and verify with primary URLs
+4. Commit updated `DATABASE.md`, `SOURCES.md`, `sources.json`, and a new `reports/YYYY-MM-DD.md`
 
 ## Rules
 
 - No unsourced claims
-- If a training method (pretraining, fine-tuning, RAG, LoRA) is not published, record `not disclosed`
+- If a training method is not published, record `not disclosed`
 - Do not invent a ranked Top 200
-
-## Status codes
-
-`active` · `proposed` · `event` · `publication` · `prototype` · `unverified-method` · `dormant` · `closed`
+- Blocked-page hashes are not content changes
