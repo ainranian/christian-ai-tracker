@@ -7,6 +7,7 @@ Living register of Christian institutions, research centers, ministry networks, 
 - Cadence: weekly, Sunday 07:00 Africa/Johannesburg
 - Rule: no unsourced claims; every change needs a full URL
 - History: append-only. Do not overwrite prior weekly snapshots.
+- Source watches: SOURCES.md and sources.json. Protocol: SOURCE-WATCH.md.
 
 ## Status codes
 
@@ -126,3 +127,10 @@ G Church operations and sermon tools
 - Created initial register from verified web sources.
 - Published to https://github.com/ainranian/christian-ai-tracker
 - Technical finding: published LoRA/pretraining cards are almost absent; fine-tuning is documented mainly in SIL translation tools; most products are RAG, prompt constraint, or undisclosed wrappers on commercial models.
+
+### 2026-09-10 — source-watch baseline (Option 1)
+- Added 74 unique source watches (W-001–W-074) covering all cited register URLs.
+- Probe from this environment: 55 live, 16 blocked (mostly 403 on news/CDN sites), 3 fail (429 or no response), 0 missing.
+- Blocked examples: New York Times, AP, Axios, NCR, RNS, Lausanne, AI and Faith, ERLC, CUA policy host.
+- Fail: https://www.magisterium.com/overview (429), https://chai-global.org/ (no response), https://www.kingdominnovations.us/ (no response).
+- Ledger: https://github.com/ainranian/christian-ai-tracker/blob/main/SOURCES.md
