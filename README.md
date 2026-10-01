@@ -10,13 +10,13 @@ https://github.com/ainranian/christian-ai-tracker
 | CHRISTIAN-AI-LANDSCAPE.md | Ten-minute narrative. Not a register. |
 | OPENISSUES.md | Issue register with OI-nnn and status log. |
 | README.md | Rules, process, history, and the source ledger (appendix). |
-| reports/ | Deltas and verification reports. |
-| backup/ | Dated full copies before a change. |
+| archive/reports/ | Deltas and verification reports. |
+| archive/backup/ | Dated full copies before a change. |
 | archive/ | Older superseded copies. |
 
-Sunday 07:00 Africa/Johannesburg: load DATABASE.md, add or update rows, never collapse IDs, copy the live tree to backup/YYYY-MM-DD-HHMM/ before replacing a file.
+Sunday 07:00 Africa/Johannesburg: load DATABASE.md, add or update rows, never collapse IDs, copy the live tree to archive/backup/YYYY-MM-DD-HHMM/ before replacing a file.
 
-Merged here on 2026-10-01: PROCESS.md, DATABASE-WATCH.md, SOURCE-WATCH.md, and SOURCES.md. Those paths now point at this file.
+Merged here on 2026-10-01: PROCESS.md, DATABASE-WATCH.md, SOURCE-WATCH.md, and SOURCES.md. Those files were moved to archive/merged-2026-10-02/ on 2026-10-02.
 
 ## Process
 

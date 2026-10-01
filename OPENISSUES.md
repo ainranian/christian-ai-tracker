@@ -29,6 +29,9 @@ Not a register. Each item has one ID. Do not reuse an ID.
 | OI-009 | open | 2026-10-01 | CHRISTIAN-AI-LANDSCAPE.md (formerly LANDSCAPE-STORY.md) says the register is local and "see local", and it states figures (Lilly grant, download counts, Zurich funding) that are not in DATABASE.md and were not re-verified. |
 | OI-010 | open | 2026-10-01 | The source ledger stops at W-074 and does not include G-013, G-014, or F-029. The ledger is now the appendix of README.md. |
 | OI-011 | rejected | 2026-10-01 | Requested filename DATABASE-WATCH.ms was saved as DATABASE-WATCH.md. Rejected: the repo uses .md, and that file was later merged into README.md. |
+| OI-012 | open | 2026-10-02 | CHRISTIAN-AI-LANDSCAPE.md cites https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20250128_antiqua-et-nova_en.html and that URL returned HTTP 404. The register uses the rc_ddf_doc path. |
+| OI-013 | open | 2026-10-02 | Link check of the four live files on 2026-10-02: https://chai-global.org/ and https://www.kingdominnovations.us/ returned no HTTP response. Same hosts as OI-003. |
+| OI-014 | open | 2026-10-02 | Link check of the four live files on 2026-10-02: https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html returned HTTP 404 to curl. Same URL as OI-005. A page fetch on 2026-10-01 returned the note. |
 
 ## Log
 
@@ -45,3 +48,6 @@ Not a register. Each item has one ID. Do not reuse an ID.
 | 2026-10-01 | OI-009 | — | open | Carried from the unnumbered list. File name updated after the rename. |
 | 2026-10-01 | OI-010 | — | open | Carried from the unnumbered list. |
 | 2026-10-01 | OI-011 | open | rejected | .ms not used. Content now lives in README.md. |
+| 2026-10-02 | OI-012 | — | open | Landscape example URL rc_con_cfaith_doc returned 404. |
+| 2026-10-02 | OI-013 | — | open | Repeat of OI-003 hosts from the live-file link check. |
+| 2026-10-02 | OI-014 | — | open | Repeat of OI-005 from the live-file link check. |
