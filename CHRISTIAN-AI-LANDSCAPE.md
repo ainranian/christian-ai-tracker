@@ -1,4 +1,8 @@
-# CHRISTIAN-AI-LANDSCAPE\n\nRenamed from LANDSCAPE-STORY.md on 2026-10-01. Content unchanged except this note and the filename.\n\n# The Christian AI Landscape: A Ten-Minute Story
+# CHRISTIAN-AI-LANDSCAPE
+
+Renamed from LANDSCAPE-STORY.md on 2026-10-01. Content unchanged except this note and the filename.
+
+# The Christian AI Landscape: A Ten-Minute Story
 
 **Source:** ainranian/christian-ai-tracker — 132 initiatives (IDs A-001 through G-007), 74 source watches (W-001–W-074), weekly Sunday 07:00 Africa/Johannesburg automation.
 **Purpose:** A spoken narrative for explaining the landscape in about ten minutes. Companion to DATABASE.md (the register) — this file is the story the register tells.
