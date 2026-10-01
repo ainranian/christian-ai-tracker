@@ -10,7 +10,7 @@ Four files live at the repository root. Everything else is under `archive/`.
 
 | Path | Role |
 |---|---|
-| DATABASE.md | Register only. One row per named initiative. 135 IDs. |
+| DATABASE.md | Register only. One row per named initiative. 135 IDs after the 2026-10-02 prefix renumber. |
 | README.md | Process, rules, categories, history, and the source ledger (appendix). |
 | CHRISTIAN-AI-LANDSCAPE.md | Ten-minute narrative. Not a register. Renamed from LANDSCAPE-STORY.md. |
 | OPENISSUES.md | Issue register. IDs are OI-nnn. Status values: `open`, `in-progress`, `fixed`, `rejected`. |
@@ -33,7 +33,7 @@ Former files: archive/merged-2026-10-02/.
 
 1. One named initiative = one ID.
 2. Parent column groups children; it does not replace the child row.
-3. Do not delete or reuse IDs.
+3. Do not delete or reuse IDs. Exception on 2026-10-02 (OI-006): fourteen rows were renumbered so the ID prefix matches Cat. Vacated IDs stay unused. See OI-015.
 4. Diff names against last week before finishing. Explain any disappearance.
 5. Replace a live file only after copying the tree to archive/backup/YYYY-MM-DD-HHMM/.
 6. Source watches stay in the appendix of this README. The check method is in the source-watch section below.
@@ -103,7 +103,7 @@ Check order: HTTP class (live/blocked/missing/fail) → ETag → Last-Modified �
 
 ## Appendix: source ledger
 
-Former SOURCES.md, now kept here. The pointer copy is archive/merged-2026-10-02/SOURCES.md. One row per unique cited URL.
+Archival copy of the former SOURCES.md ledger. Not a live watch list. OI-016: drop this appendix after the DATABASE.md audit (OI-001) is complete. Pointer copy: archive/merged-2026-10-02/SOURCES.md.
 
 # Source watches
 

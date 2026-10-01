@@ -20,9 +20,9 @@ The single most important technical finding across all 132 initiatives: almost n
 
 ## Act one — the magisterium
 
-The Vatican leads the institutional world. Antiqua et Nova (2025 doctrinal note) and Magnifica Humanitas (Leo XIV's 2026 encyclical calling for AI to be "disarmed") set the tone. The Rome Call for AI Ethics offers six principles, and Paolo Benanti at the Gregorian University advises the Vatican, Italy, and the UN. Notre Dame's DELTA Network carries a $50.8 million Lilly grant.
+The Vatican leads the institutional world. Antiqua et Nova (2025 doctrinal note) and Magnifica Humanitas (Leo XIV's 2026 encyclical calling for AI to be "disarmed") set the tone. The Rome Call for AI Ethics offers six principles, and Paolo Benanti at the Gregorian University advises the Vatican, Italy, and the UN. Notre Dame's DELTA Network is in the register (A-008). A Lilly grant figure is not in DATABASE.md and is not restated here.
 
-**Example:** https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20250128_antiqua-et-nova_en.html
+**Example:** https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html
 
 **Theological concern:** magisterial authority is real, but it can become a substitute for personal engagement with Scripture — and the Vatican's framework is natural-law based, not explicitly biblical.
 
@@ -40,7 +40,7 @@ The ERLC's 2019 statement grounds AI in the imago Dei. The Gospel Coalition buil
 
 ## Act three — the academy
 
-Calvin University's Derek Schuurman hosts a Wisdom in the Age of AI conference (October 2026). Durham's CODEC is the foundational UK digital theology center. Zurich runs a 25 million franc program. Shaw University is planning the first doctoral degree in AI and moral agency.
+Calvin University's Derek Schuurman hosts a Wisdom in the Age of AI conference (October 2026). Durham's CODEC is the foundational UK digital theology center. Zurich has a Church and AI 2026 call (C-010). A franc figure is not in DATABASE.md and is not restated here. Shaw University is planning the first doctoral degree in AI and moral agency.
 
 **Example:** https://calvin.edu (search: Wisdom in the Age of AI)
 
@@ -70,7 +70,7 @@ Gloo is the biggest player, with a judge-LLM benchmark called FAI-C. FaithTech, 
 
 ## Act six — the consumer apps
 
-Bible Chat claims 30 million downloads, Pray.com about 25 million, Hallow partners with the Magisterium. Text With Jesus does biblical-figure roleplay. Just Like Me sells a paid video Jesus. A Cambridge study found chatbot bias in Bible apps.
+Bible Chat, Pray.com, and Hallow are in the register (F-001, F-002, F-003). Download counts are not in DATABASE.md and are not restated here. Text With Jesus does biblical-figure roleplay. Just Like Me sells a paid video Jesus. A Cambridge study found chatbot bias in Bible apps.
 
 **Example:** https://biblechat.ai
 
@@ -112,7 +112,7 @@ Less sophisticated but more biblically grounded. The ERLC's imago Dei framing is
 
 ### Academy
 
-The most sophisticated category technically, but the most theologically diffuse. Zurich's 25 million francs buys serious research, but much of it describes AI's effect on religion rather than asking whether AI serves Christ. The exception is Calvin's Schuurman — Reformed, confessional, building from the inside. Shaw's doctoral track in AI and moral agency is the boldest institutional move, but it is still a proposal.
+The most sophisticated category technically, but the most theologically diffuse. Zurich's Church and AI work describes AI's effect on religion rather than asking whether AI serves Christ. The exception is Calvin's Schuurman — Reformed, confessional, building from the inside. Shaw's doctoral track in AI and moral agency is the boldest institutional move, but it is still a proposal.
 
 ### Translation
 
@@ -124,7 +124,7 @@ The most commercially sophisticated and the most theologically ambiguous. Gloo's
 
 ### Consumer apps
 
-The least sophisticated technically — almost all unverified-method, meaning nobody knows what is in the training data — and the highest risk theologically. Bible Chat's 30 million downloads and Pray.com's 25 million mean millions of people are forming spiritual habits with systems they cannot audit. Text With Jesus and Just Like Me cross a line: they do not serve prayer, they replace it. A chatbot Jesus cannot suffer, cannot die, cannot rise — and that is the whole gospel.
+The least sophisticated technically — almost all unverified-method, meaning nobody knows what is in the training data — and the highest risk theologically. Bible Chat and Pray.com are large consumer apps in the register. Download counts are not in DATABASE.md. Text With Jesus and Just Like Me cross a line: they do not serve prayer, they replace it. A chatbot Jesus cannot suffer, cannot die, cannot rise — and that is the whole gospel.
 
 ### Church operations
 
@@ -150,7 +150,6 @@ Logos does not train its own model. It uses off-the-shelf models from OpenAI, Go
 
 ## Open questions
 
-- Verify category counts and example IDs against DATABASE.md (currently a local file — "see local").
-- Add per-category ID lists once DATABASE.md content is available in-repo.
+- DATABASE.md is on main and is the register. The "see local" note is obsolete.
 - Decide whether CHRISTIAN-AI-LANDSCAPE.md should be updated by the Sunday automation or maintained manually.
 - Visualization layer (maps, matrices) discussed but not started.

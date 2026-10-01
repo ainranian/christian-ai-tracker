@@ -24,12 +24,8 @@ URL ledger: SOURCES.md
 | A-012 | Franciscan University AI and Human Flourishing Chair | Franciscan University of Steubenville | A | proposed | Endowed chair search | https://www.ncronline.org/news/catholic-colleges-and-universities-jumping-quick-moving-ai-field |
 | A-013 | Catholic Institute of Technology | Catholic Institute of Technology | A | active | LLM/theology research listed | https://www.oursundayvisitor.com/new-catholic-university-embraces-relationship-of-faith-and-science/ |
 | A-014 | Magisterium AI | Longbeard | A | unverified-method | Corpus-constrained Catholic answer engine | https://www.magisterium.com/overview |
-| A-015 | Credo Chat | Credo Chat | F | unverified-method | Consumer Catholic app cluster remnant; see A-018 A-019 | https://www.catholicmom.com/articles/ai-for-catholics-six-apps-you-should-know-about |
 | A-016 | Alexandria Digitization Hub | Longbeard | A | active | Robotic scan of Catholic archives for model corpora | https://www.magisterium.com/blog/from-principle-practice-building-catholic-ai-infrastructure |
 | A-017 | Vulgate AI | Longbeard | A | active | Index/retrieval over digitized Catholic corpus | https://www.magisterium.com/blog/from-principle-practice-building-catholic-ai-infrastructure |
-| A-018 | Truthly | Truthly | F | unverified-method | Catholic companion; Scripture/Catechism claims | https://www.truthly.ai/ |
-| A-019 | Catholic AI | Catholic AI | F | unverified-method | Catechism/Aquinas-grounded assistant | https://www.catholicai.app/ai-that-follows-catholic-teaching |
-| A-020 | Justin chatbot | Catholic Answers | F | unverified-method | Priest-sim then renamed Justin | https://www.commonwealmagazine.org/ai-artificial-intelligence-oglesby-evangelization-leo-truthly-catholic |
 | A-021 | Builders AI Forum | Longbeard | A | event | Forum; Microsoft/HP reported present | https://www.deseret.com/magazine/2026/03/27/faith-and-artificial-intelligence/ |
 | B-001 | ERLC Evangelical Statement of Principles | Southern Baptist Convention / ERLC | B | publication | Imago Dei tool ethic; Jason Thacker | https://erlc.com/policy-content/artificial-intelligence-an-evangelical-statement-of-principles/ |
 | B-002 | TGC AI Christian Benchmark | The Gospel Coalition | B | active | Model benchmark + FLI-funded program | https://www.thegospelcoalition.org/ai-christian-benchmark/ |
@@ -114,23 +110,21 @@ URL ledger: SOURCES.md
 | F-010 | TheoSumma | TheoSumma | F | unverified-method | Cited historical-theologian personas | https://faith.tools/apologetics |
 | F-011 | Jubilee Intelligence | Jubilee Intelligence | F | unverified-method | Proprietary theological-training claim | https://www.jubileeintelligence.com/ |
 | F-012 | GospelTruth.ai | GospelTruth.ai | F | unverified-method | Sermon generation claim | https://www.outlookmag.org/pastor-wintley-phipps-introduces-gospeltruth-ai/ |
-| F-013 | Kaleo AI | Kaleo AI | G | active | Live church translation/captions | https://faith.tools/artificial-intelligence-ai |
 | F-014 | Samaritan | Samaritan | F | unverified-method | iOS Christian voice companion | https://faith.tools/artificial-intelligence-ai |
 | F-015 | Velora / Ask Velora | Everywai | F | unverified-method | Companion scoped to captured sermons | https://faith.tools/artificial-intelligence-ai |
 | F-016 | Cardinal Bible | Cardinal Bible | F | unverified-method | iOS Bible + verse-grounded Ask | https://faith.tools/artificial-intelligence-ai |
 | F-017 | Agentic Jesus | Agentic Jesus | F | unverified-method | Claude-based companion with guardrails claim | https://faith.tools/app/13774-agentic-jesus |
 | F-018 | Bible Bot | faith.tools / Cameron Pak | F | unverified-method | Open-sourced ChatGPT companion prompt | https://faith.tools/app/270-bible-bot |
 | F-019 | Exegesis | Exegesis / Roberto Chavez Jr. | F | unverified-method | Commentary corpus + confessions-grounded assistant | https://faith.tools/artificial-intelligence-ai |
-| F-020 | Hope Translator | Hope Harbor | G | active | Live sermon translation; 44 languages | https://faith.tools/artificial-intelligence-ai |
-| F-021 | CiteVerse | Gjio Technologies | G | active | Real-time transcription + verse detection | https://faith.tools/artificial-intelligence-ai |
-| F-022 | MinistryHelper.ai | MinistryHelper.ai | G | unverified-method | Sermon-to-30-assets multiplication | https://faith.tools/artificial-intelligence-ai |
-| F-023 | Doctrinally.AI | Doctrinally.AI | G | unverified-method | Church-trained assistant and site widget; cites uploaded church content | https://faith.tools/app/13826-doctrinally-ai |
-| F-024 | Glossa | Glossa | G | active | Live sermon translation 100+ languages | https://faith.tools/artificial-intelligence-ai |
-| F-025 | Sermons.app | NewCulture Consulting | G | unverified-method | Coaching model; no-training-on-sermons claim | https://faith.tools/artificial-intelligence-ai |
-| F-026 | SermonSpark | Missional Software | G | unverified-method | Sermon prep suite | https://faith.tools/artificial-intelligence-ai |
 | F-027 | Bible Vector Search | Antioch Tech | F | active | Embedding search; open source | https://faith.tools/app/816-faith-assistant |
 | F-028 | GetSermons / Preachai | GetSermons | F | unverified-method | Sermon library + Preachai chat | https://faith.tools/artificial-intelligence-ai |
 | F-029 | Theos Scripture Intelligence | Theos Scripture Intelligence | F | unverified-method | AI Bible study with in-text chat and custom journeys; distinct from Theos think tank B-016 | https://jointheos.io/ |
+| F-030 | Credo Chat | Credo Chat | F | unverified-method | Consumer Catholic app cluster remnant; see A-018 A-019; formerly A-015 | https://www.catholicmom.com/articles/ai-for-catholics-six-apps-you-should-know-about |
+| F-031 | Truthly | Truthly | F | unverified-method | Catholic companion; Scripture/Catechism claims; formerly A-018 | https://www.truthly.ai/ |
+| F-032 | Catholic AI | Catholic AI | F | unverified-method | Catechism/Aquinas-grounded assistant; formerly A-019 | https://www.catholicai.app/ai-that-follows-catholic-teaching |
+| F-033 | Justin chatbot | Catholic Answers | F | unverified-method | Priest-sim then renamed Justin; formerly A-020 | https://www.commonwealmagazine.org/ai-artificial-intelligence-oglesby-evangelization-leo-truthly-catholic |
+| F-034 | SoapBox / ORA / Faith API | SoapBox | F | unverified-method | Super-app + Faith API/MCP; formerly G-010 | https://faith.tools/artificial-intelligence-ai |
+| F-035 | Psalmlog | Psalmlog | F | unverified-method | Journal + Scripture reflection; formerly G-011 | https://faith.tools/artificial-intelligence-ai |
 | G-001 | Logos Bible Software AI | Faithlife / Logos | G | active | Library-grounded study aid | https://aligned.church/blog/best-ai-for-churches-comparison-2026 |
 | G-002 | Sermon AI | Sermon AI | G | unverified-method | Dedicated sermon prep suite | https://aligned.church/blog/best-ai-sermon-writer-comparison-2026 |
 | G-003 | Aligned | Aligned | G | unverified-method | Doctrine-configurable workspace | https://aligned.church/blog/best-ai-for-churches-comparison-2026 |
@@ -140,8 +134,14 @@ URL ledger: SOURCES.md
 | G-007 | Helsinki St. Paul's AI service experiment | Evangelical Lutheran Church of Finland | G | event | ChatGPT + Suno + Synthesia liturgy | https://apnews.com/article/finland-lutheran-church-artificial-intelligence-64135cc5e58578a89dcbaf0c227d9e3e |
 | G-008 | Spf.io | TheoTech | G | active | Live captions and speech-to-speech | https://faith.tools/artificial-intelligence-ai |
 | G-009 | Church Canvas | Church Canvas | G | unverified-method | AI church graphic studio | https://faith.tools/artificial-intelligence-ai |
-| G-010 | SoapBox / ORA / Faith API | SoapBox | F | unverified-method | Super-app + Faith API/MCP | https://faith.tools/artificial-intelligence-ai |
-| G-011 | Psalmlog | Psalmlog | F | unverified-method | Journal + Scripture reflection | https://faith.tools/artificial-intelligence-ai |
 | G-012 | Gospel Coach (tool view) | NAMB / Life On Mission | G | active | Same product family as B-024 | https://faith.tools/artificial-intelligence-ai |
 | G-013 | Equip | Ministry Brands | G | active | Ministry-built AI platform for sermon preparation and content amplification; church content not used to train public models | https://www.ministrybrands.com/ |
 | G-014 | Theo | ExperienceChurch.tv | G | active | Church website AI assistant; self-identifies as AI; crisis topics handed to a pastor | https://www.einpresswire.com/article/939461650/experience-church-launches-theo-an-ai-assistant-built-to-answer-fast |
+| G-015 | Kaleo AI | Kaleo AI | G | active | Live church translation/captions; formerly F-013 | https://faith.tools/artificial-intelligence-ai |
+| G-016 | Hope Translator | Hope Harbor | G | active | Live sermon translation; 44 languages; formerly F-020 | https://faith.tools/artificial-intelligence-ai |
+| G-017 | CiteVerse | Gjio Technologies | G | active | Real-time transcription + verse detection; formerly F-021 | https://faith.tools/artificial-intelligence-ai |
+| G-018 | MinistryHelper.ai | MinistryHelper.ai | G | unverified-method | Sermon-to-30-assets multiplication; formerly F-022 | https://faith.tools/artificial-intelligence-ai |
+| G-019 | Doctrinally.AI | Doctrinally.AI | G | unverified-method | Church-trained assistant and site widget; cites uploaded church content; formerly F-023 | https://faith.tools/app/13826-doctrinally-ai |
+| G-020 | Glossa | Glossa | G | active | Live sermon translation 100+ languages; formerly F-024 | https://faith.tools/artificial-intelligence-ai |
+| G-021 | Sermons.app | NewCulture Consulting | G | unverified-method | Coaching model; no-training-on-sermons claim; formerly F-025 | https://faith.tools/artificial-intelligence-ai |
+| G-022 | SermonSpark | Missional Software | G | unverified-method | Sermon prep suite; formerly F-026 | https://faith.tools/artificial-intelligence-ai |
