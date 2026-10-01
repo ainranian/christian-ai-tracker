@@ -2,43 +2,48 @@
 
 https://github.com/ainranian/christian-ai-tracker
 
-## Live files
+Updated: 2026-10-02
 
-| File | Role |
+## Current structure
+
+Four files live at the repository root. Everything else is under `archive/`.
+
+| Path | Role |
 |---|---|
-| DATABASE.md | Register only. One row per ID. |
-| CHRISTIAN-AI-LANDSCAPE.md | Ten-minute narrative. Not a register. |
-| OPENISSUES.md | Issue register with OI-nnn and status log. |
-| README.md | Rules, process, history, and the source ledger (appendix). |
-| archive/reports/ | Deltas and verification reports. |
-| archive/backup/ | Dated full copies before a change. |
-| archive/ | Older superseded copies. |
+| DATABASE.md | Register only. One row per named initiative. 135 IDs. |
+| README.md | Process, rules, categories, history, and the source ledger (appendix). |
+| CHRISTIAN-AI-LANDSCAPE.md | Ten-minute narrative. Not a register. Renamed from LANDSCAPE-STORY.md. |
+| OPENISSUES.md | Issue register. IDs are OI-nnn. Status values: `open`, `in-progress`, `fixed`, `rejected`. |
+| archive/2026-09-10/ | Seed and restore stubs from 2026-09-10. |
+| archive/2026-09-13/ | Broken 38-byte DATABASE.md copy from 2026-09-13. |
+| archive/backup/2026-10-01-2343SAST/ | Full tree copied before the 2026-10-01 split. |
+| archive/reports/ | Weekly and verification reports, including 2026-10-01-verification.md. |
+| archive/merged-2026-10-02/ | Former PROCESS.md, DATABASE-WATCH.md, SOURCE-WATCH.md, and SOURCES.md. Those four files are pointers. Their content is in this README. |
 
-Sunday 07:00 Africa/Johannesburg: load DATABASE.md, add or update rows, never collapse IDs, copy the live tree to archive/backup/YYYY-MM-DD-HHMM/ before replacing a file.
-
-Merged here on 2026-10-01: PROCESS.md, DATABASE-WATCH.md, SOURCE-WATCH.md, and SOURCES.md. Those files were moved to archive/merged-2026-10-02/ on 2026-10-02.
+Sunday 07:00 Africa/Johannesburg: load DATABASE.md, add or update rows, never delete or reuse IDs, and copy the live tree to archive/backup/YYYY-MM-DD-HHMM/ before replacing a file.
 
 ## Process
 
 # Process
 
 Canonical register: DATABASE.md.
-Rules and history: DATABASE-WATCH.md.
-URL ledger: SOURCES.md.
+Rules and history: this README.
+URL ledger: the appendix of this README.
+Former files: archive/merged-2026-10-02/.
 
 1. One named initiative = one ID.
 2. Parent column groups children; it does not replace the child row.
 3. Do not delete or reuse IDs.
 4. Diff names against last week before finishing. Explain any disappearance.
-5. Replace a live file only after copying the tree to backup/YYYY-MM-DD-HHMM/.
-6. Source watches stay in SOURCES.md. The check method is in DATABASE-WATCH.md.
+5. Replace a live file only after copying the tree to archive/backup/YYYY-MM-DD-HHMM/.
+6. Source watches stay in the appendix of this README. The check method is in the source-watch section below.
 
 
 ## Rules, categories, and history
 
 # DATABASE-WATCH
 
-Companion to DATABASE.md. This file holds rules, categories, status values, the source-watch method, and history. The register table is only in DATABASE.md. The per-URL ledger remains SOURCES.md.
+Rules, categories, status values, the source-watch method, and history. The register table is only in DATABASE.md. The per-URL ledger is the appendix below.
 
 ## Rules
 
@@ -47,7 +52,7 @@ Companion to DATABASE.md. This file holds rules, categories, status values, the 
 - Do not delete or reuse IDs.
 - Every fact needs a full URL. Unpublished training method = `not disclosed` / `unverified-method`.
 - Parent = owning or hosting organisation used for grouping.
-- Weekly run: update DATABASE.md in place; put superseded copies in `backup/` or `archive/`.
+- Weekly run: update DATABASE.md in place; put superseded copies in archive/backup/.
 - ID prefix and Cat may differ. Cat is the product type. The ID prefix is the original cluster. Do not renumber to force a match.
 
 ## Status
@@ -66,14 +71,14 @@ Companion to DATABASE.md. This file holds rules, categories, status values, the 
 
 ## Source-watch method
 
-Ledger: SOURCES.md. Register: DATABASE.md.
+Ledger: appendix of README.md. Register: DATABASE.md.
 
 One watch (W-nnn) per unique cited URL. Several project IDs may share a URL.
 
 Check order: HTTP class (live/blocked/missing/fail) → ETag → Last-Modified → live text hash → redirect target.
 
 - Unchanged: update last_checked only.
-- Changed: record previous validators in reports/YYYY-MM-DD.md; update the watch; history line on linked IDs.
+- Changed: record previous validators in archive/reports/YYYY-MM-DD.md; update the watch; history line on linked IDs.
 - New URL → new W-nnn.
 - Blocked-page hashes are not content changes.
 - HTTP validators: https://httpwg.org/specs/rfc7232.html
@@ -98,7 +103,7 @@ Check order: HTTP class (live/blocked/missing/fail) → ETag → Last-Modified �
 
 ## Appendix: source ledger
 
-Former SOURCES.md. One row per unique cited URL.
+Former SOURCES.md, now kept here. The pointer copy is archive/merged-2026-10-02/SOURCES.md. One row per unique cited URL.
 
 # Source watches
 
