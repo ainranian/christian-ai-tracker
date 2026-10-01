@@ -28,6 +28,18 @@ Not a register. Each item has one ID. Do not reuse an ID.
 | OI-015 | open | 2026-10-02 | Review the no-reuse rule after the OI-006 exception. Vacated IDs A-015, A-018, A-019, A-020, F-013, F-020–F-026, G-010, G-011 stay unused. |
 | OI-016 | open | 2026-10-02 | The source ledger in the README appendix is archival. It is not required once the DATABASE.md audit and verification (OI-001) is complete. |
 
+
+## Open issues: DATABASE.md IDs
+
+- OI-001: all 135 IDs. Page-checked on 2026-10-02: A-001, A-014, B-001, F-027. Not page-checked: the other 131.
+- OI-002: A-006, A-007, A-008, A-010, A-012, A-013, B-006, B-007, B-008, B-010, B-012, C-003, C-006, D-006, F-001, F-002, F-003, F-007, F-033, G-006, G-007. B-001 was page-checked and is not in this list.
+- OI-003: E-007, E-008.
+- OI-004: A-016, A-017. A-014 overview page loaded and is not in this list.
+- OI-007: C-019, D-013, E-013, F-014, F-016, F-019, F-028, G-017, G-018, G-020, G-021, G-022. Dedicated pages were found for B-024, G-012, F-015, F-034, F-035, G-008, G-009, G-015, G-016. C-018 is the faith.tools catalog itself.
+- OI-010: G-013, G-014, F-029 are missing from the archival ledger.
+- OI-015: vacated IDs A-015, A-018, A-019, A-020, F-013, F-020, F-021, F-022, F-023, F-024, F-025, F-026, G-010, G-011. No current row uses them.
+- OI-016: no current ID. The archival ledger is the README appendix.
+
 ## Closed
 
 | ID | Status | Opened | Statement |
