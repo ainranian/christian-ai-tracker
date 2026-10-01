@@ -19,7 +19,7 @@ Not a register. Each item has one ID. Do not reuse an ID.
 
 | ID | Status | Opened | Statement |
 |---|---|---|---|
-| OI-001 | open | 2026-10-01 | Cell audit is not finished for every note. Page checks on 2026-10-02 confirmed A-001, A-014, B-001, and F-027. Twenty-two rows still cite only https://faith.tools/artificial-intelligence-ai. Eighteen hosts still need a browser pass where curl returned 403. |
+| OI-001 | open | 2026-10-01 | Cell audit unfinished. Page-checked: A-001, A-014, B-001, F-027. Not page-checked: A-002–A-013, A-016, A-017, B-002–B-012, B-020, B-024, C-001–C-010, C-018, C-019, D-001–D-008, D-013, E-001–E-013, F-001–F-016, F-019, F-028–F-035, G-001–G-009, G-012–G-022. |
 | OI-002 | open | 2026-10-01 | Curl 403, not yet browser-confirmed: A-006, A-007, A-008, A-010, A-012, A-013, B-006, B-007, B-008, B-010, B-012, C-003, C-006, D-006, F-001, F-002, F-003, F-007, F-033, G-006, G-007. B-001 page-checked and removed from this list. |
 | OI-003 | open | 2026-10-01 | No HTTP response: E-007 (https://chai-global.org/) and E-008 (https://www.kingdominnovations.us/). https://sites.google.com/view/chai-global/ says the site moved and does not give the new domain. |
 | OI-004 | open | 2026-10-01 | Not re-fetched after HTTP 429: A-016, A-017 (https://www.magisterium.com/blog/from-principle-practice-building-catholic-ai-infrastructure). A-014 overview page loaded and is removed from this list. |
