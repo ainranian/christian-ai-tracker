@@ -1,3 +1,3 @@
-# Source watches
+# Moved
 
-Moved. Method is in DATABASE-WATCH.md. Ledger remains SOURCES.md. Register is DATABASE.md.
+This file was merged into README.md on 2026-10-01. The register remains DATABASE.md. Open issues remain OPENISSUES.md. The narrative is CHRISTIAN-AI-LANDSCAPE.md.
