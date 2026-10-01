@@ -13,27 +13,33 @@ Not a register. Each item has one ID. Do not reuse an ID.
 - When implemented or repaired, set status `fixed` and add a log line with the file or commit.
 - When declined, set status `rejected` and add a log line with the reason.
 - Do not delete a row. Status and the log are the history.
+- The live register below holds `open` and `in-progress` only. `fixed` and `rejected` rows are in the closed table.
 
 ## Register
 
 | ID | Status | Opened | Statement |
 |---|---|---|---|
-| OI-001 | open | 2026-10-01 | Full cell-by-cell fact audit of all 135 notes is unfinished. The 2026-10-01 run checked HTTP status for 87 URLs and page text for G-013, G-014, F-029, B-020, F-023, and E-007 only. |
-| OI-002 | open | 2026-10-01 | Eighteen source URLs return HTTP 403 to a non-browser client (NYT, AP, Axios, ERLC, Lausanne, NCR, OSV, Religion News, Notre Dame ethics, aiandfaith.org, Catholic University policy, Commonweal, Biblica). Re-check in a browser before treating a note as confirmed or failed. |
-| OI-003 | open | 2026-10-01 | https://chai-global.org/ (E-007) and https://www.kingdominnovations.us/ (E-008) returned no HTTP response. CHAI has a Google Sites page at https://sites.google.com/view/chai-global/ that says the site moved. New URL not captured. |
-| OI-004 | open | 2026-10-01 | Magisterium.com URLs (A-014, A-016, A-017) returned HTTP 429. |
-| OI-005 | open | 2026-10-01 | A-001 Antiqua et Nova URL returns 404 to curl and the document to a page fetch. Keep both results until a browser check. |
-| OI-006 | fixed | 2026-10-01 | Fourteen rows have an ID prefix that differs from Cat (A-015, A-018, A-019, A-020, F-013, F-020–F-026, G-010, G-011). Left as in the 2026-09-10 register. Renumbering would violate the no-reuse rule. |
-| OI-007 | open | 2026-10-01 | Many F and G notes cite only https://faith.tools/artificial-intelligence-ai. A dedicated product URL is still needed for each. |
-| OI-008 | open | 2026-10-01 | F-027 Bible Vector Search cites the Faith Assistant app page. Confirm that is the right source. |
-| OI-009 | fixed | 2026-10-01 | CHRISTIAN-AI-LANDSCAPE.md (formerly LANDSCAPE-STORY.md) says the register is local and "see local", and it states figures (Lilly grant, download counts, Zurich funding) that are not in DATABASE.md and were not re-verified. |
-| OI-010 | open | 2026-10-01 | The source ledger stops at W-074 and does not include G-013, G-014, or F-029. The ledger is now the appendix of README.md. |
-| OI-011 | rejected | 2026-10-01 | Requested filename DATABASE-WATCH.ms was saved as DATABASE-WATCH.md. Rejected: the repo uses .md, and that file was later merged into README.md. |
-| OI-012 | fixed | 2026-10-02 | CHRISTIAN-AI-LANDSCAPE.md cites https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20250128_antiqua-et-nova_en.html and that URL returned HTTP 404. The register uses the rc_ddf_doc path. |
-| OI-013 | rejected | 2026-10-02 | Link check of the four live files on 2026-10-02: https://chai-global.org/ and https://www.kingdominnovations.us/ returned no HTTP response. Same hosts as OI-003. |
+| OI-001 | open | 2026-10-01 | Cell audit is not finished for every note. Page checks on 2026-10-02 confirmed A-001, A-014, B-001, and F-027. Twenty-two rows still cite only https://faith.tools/artificial-intelligence-ai. Eighteen hosts still need a browser pass where curl returned 403. |
+| OI-002 | open | 2026-10-01 | Curl returned HTTP 403 for NYT, AP, Axios, Lausanne, NCR, OSV, Religion News, Notre Dame ethics, aiandfaith.org, Catholic University policy, Commonweal, and Biblica. ERLC was confirmed by a page fetch: Artificial Intelligence: An Evangelical Statement of Principles. https://erlc.com/policy-content/artificial-intelligence-an-evangelical-statement-of-principles/ |
+| OI-003 | open | 2026-10-01 | https://chai-global.org/ and https://www.kingdominnovations.us/ returned no HTTP response. https://sites.google.com/view/chai-global/ says the site moved and does not give the new domain. |
+| OI-004 | open | 2026-10-01 | https://www.magisterium.com/overview loaded and describes Magisterium AI. The infrastructure blog URL for A-016 and A-017 was not re-fetched after the earlier HTTP 429. |
+| OI-007 | open | 2026-10-01 | Twenty-two rows still cite only https://faith.tools/artificial-intelligence-ai. A dedicated product URL is still needed for each. |
+| OI-010 | open | 2026-10-01 | The source ledger stops at W-074 and does not include G-013, G-014, or F-029. The ledger is the archival appendix of README.md. |
 | OI-015 | open | 2026-10-02 | Review the no-reuse rule after the OI-006 exception. Vacated IDs A-015, A-018, A-019, A-020, F-013, F-020–F-026, G-010, G-011 stay unused. |
 | OI-016 | open | 2026-10-02 | The source ledger in the README appendix is archival. It is not required once the DATABASE.md audit and verification (OI-001) is complete. |
-| OI-014 | rejected | 2026-10-02 | Link check of the four live files on 2026-10-02: https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html returned HTTP 404 to curl. Same URL as OI-005. A page fetch on 2026-10-01 returned the note. |
+
+## Closed
+
+| ID | Status | Opened | Statement |
+|---|---|---|---|
+| OI-005 | fixed | 2026-10-01 | A-001 URL loaded as Antiqua et Nova, Note on the Relationship Between Artificial Intelligence and Human Intelligence, 28 January 2025. Curl 404 was a client block. https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html |
+| OI-006 | fixed | 2026-10-01 | Exceptional renumber so ID prefix matches Cat. Old IDs not reused. |
+| OI-008 | fixed | 2026-10-01 | F-027 source corrected from the Faith Assistant page to https://faith.tools/app/833-bible-vector-search. Page describes embedding search over BBE, open source, Antioch Tech. |
+| OI-009 | fixed | 2026-10-01 | Removed "see local". Lilly, Zurich franc, and download figures marked as not in DATABASE.md. |
+| OI-011 | rejected | 2026-10-01 | Requested filename DATABASE-WATCH.ms was not used. Content is in README.md. |
+| OI-012 | fixed | 2026-10-02 | Landscape example URL set to the register rc_ddf_doc path. |
+| OI-013 | rejected | 2026-10-02 | Duplicate of OI-003. |
+| OI-014 | rejected | 2026-10-02 | Duplicate of OI-005. |
 
 ## Log
 
@@ -47,16 +53,16 @@ Not a register. Each item has one ID. Do not reuse an ID.
 | 2026-10-01 | OI-006 | — | open | Carried from the unnumbered list. |
 | 2026-10-01 | OI-007 | — | open | Carried from the unnumbered list. |
 | 2026-10-01 | OI-008 | — | open | Carried from the unnumbered list. |
-| 2026-10-01 | OI-009 | — | open | Carried from the unnumbered list. File name updated after the rename. |
+| 2026-10-01 | OI-009 | — | open | Carried from the unnumbered list. |
 | 2026-10-01 | OI-010 | — | open | Carried from the unnumbered list. |
 | 2026-10-01 | OI-011 | open | rejected | .ms not used. Content now lives in README.md. |
-| 2026-10-02 | OI-012 | — | open | Landscape example URL rc_con_cfaith_doc returned 404. |
-| 2026-10-02 | OI-013 | — | open | Repeat of OI-003 hosts from the live-file link check. |
-| 2026-10-02 | OI-014 | — | open | Repeat of OI-005 from the live-file link check. |
-| 2026-10-02 | OI-006 | open | fixed | Exceptional renumber so ID prefix matches Cat. Old IDs not reused. Mapping in DATABASE.md notes: A-015→F-030, A-018→F-031, A-019→F-032, A-020→F-033, G-010→F-034, G-011→F-035, F-013→G-015, F-020→G-016, F-021→G-017, F-022→G-018, F-023→G-019, F-024→G-020, F-025→G-021, F-026→G-022. |
-| 2026-10-02 | OI-009 | open | fixed | Removed "see local". Lilly, Zurich franc, and download figures marked as not in DATABASE.md. |
-| 2026-10-02 | OI-012 | open | fixed | Landscape example URL set to the register rc_ddf_doc path. |
+| 2026-10-02 | OI-006 | open | fixed | Prefix renumber. |
+| 2026-10-02 | OI-009 | open | fixed | Landscape stale note and unverified figures removed. |
+| 2026-10-02 | OI-012 | open | fixed | Landscape URL corrected. |
 | 2026-10-02 | OI-013 | open | rejected | Duplicate of OI-003. |
 | 2026-10-02 | OI-014 | open | rejected | Duplicate of OI-005. |
-| 2026-10-02 | OI-015 | — | open | Review no-reuse rule after the OI-006 exception. Vacated IDs stay unused. |
-| 2026-10-02 | OI-016 | — | open | Source ledger in the README appendix is archival. Drop it after the DATABASE.md audit (OI-001) is finished. |
+| 2026-10-02 | OI-005 | open | fixed | Page fetch returned the 28 January 2025 note. |
+| 2026-10-02 | OI-008 | open | fixed | F-027 source set to faith.tools app 833. |
+| 2026-10-02 | OI-001 | open | open | Scope narrowed. Not every note page-checked. |
+| 2026-10-02 | OI-002 | open | open | ERLC page confirmed. Other 403 hosts not all opened. |
+| 2026-10-02 | OI-004 | open | open | Overview page loaded. Blog URL not re-fetched. |

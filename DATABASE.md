@@ -116,7 +116,7 @@ URL ledger: SOURCES.md
 | F-017 | Agentic Jesus | Agentic Jesus | F | unverified-method | Claude-based companion with guardrails claim | https://faith.tools/app/13774-agentic-jesus |
 | F-018 | Bible Bot | faith.tools / Cameron Pak | F | unverified-method | Open-sourced ChatGPT companion prompt | https://faith.tools/app/270-bible-bot |
 | F-019 | Exegesis | Exegesis / Roberto Chavez Jr. | F | unverified-method | Commentary corpus + confessions-grounded assistant | https://faith.tools/artificial-intelligence-ai |
-| F-027 | Bible Vector Search | Antioch Tech | F | active | Embedding search; open source | https://faith.tools/app/816-faith-assistant |
+| F-027 | Bible Vector Search | Antioch Tech | F | active | Embedding search over BBE; open source; Antioch Tech | https://faith.tools/app/833-bible-vector-search |
 | F-028 | GetSermons / Preachai | GetSermons | F | unverified-method | Sermon library + Preachai chat | https://faith.tools/artificial-intelligence-ai |
 | F-029 | Theos Scripture Intelligence | Theos Scripture Intelligence | F | unverified-method | AI Bible study with in-text chat and custom journeys; distinct from Theos think tank B-016 | https://jointheos.io/ |
 | F-030 | Credo Chat | Credo Chat | F | unverified-method | Consumer Catholic app cluster remnant; see A-018 A-019; formerly A-015 | https://www.catholicmom.com/articles/ai-for-catholics-six-apps-you-should-know-about |
