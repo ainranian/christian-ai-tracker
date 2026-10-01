@@ -3,29 +3,8 @@
 Canonical register: one row per named initiative.
 Repo: https://github.com/ainranian/christian-ai-tracker
 Updated: 2026-10-01
-
-## Rules
-
-- One named organisation, product, document, or conference = one ID.
-- Alliances and platforms do not absorb members or child products.
-- Do not delete or reuse IDs.
-- Every fact needs a full URL. Unpublished training method = `not disclosed` / `unverified-method`.
-- Parent = owning or hosting organisation used for grouping.
-- Weekly run: update this file in place; put superseded copies in `archive/`.
-
-## Status
-
-`active` · `proposed` · `event` · `publication` · `prototype` · `unverified-method` · `dormant` · `closed`
-
-## Categories
-
-- A Holy See / Catholic magisterial and university
-- B Protestant / evangelical / ecumenical research
-- C Digital theology centres, journals, working groups
-- D Bible translation and missions engineering
-- E Faith-tech platforms, incubators, networks
-- F Consumer Bible / prayer / companion apps
-- G Church operations and sermon tools
+Rules, categories, and history: DATABASE-WATCH.md
+URL ledger: SOURCES.md
 
 ## Register
 
@@ -145,12 +124,13 @@ Updated: 2026-10-01
 | F-020 | Hope Translator | Hope Harbor | G | active | Live sermon translation; 44 languages | https://faith.tools/artificial-intelligence-ai |
 | F-021 | CiteVerse | Gjio Technologies | G | active | Real-time transcription + verse detection | https://faith.tools/artificial-intelligence-ai |
 | F-022 | MinistryHelper.ai | MinistryHelper.ai | G | unverified-method | Sermon-to-30-assets multiplication | https://faith.tools/artificial-intelligence-ai |
-| F-023 | Doctrinally.AI | Doctrinally.AI | G | unverified-method | Church-trained assistant + site widget | https://faith.tools/app/13774-agentic-jesus |
+| F-023 | Doctrinally.AI | Doctrinally.AI | G | unverified-method | Church-trained assistant and site widget; cites uploaded church content | https://faith.tools/app/13826-doctrinally-ai |
 | F-024 | Glossa | Glossa | G | active | Live sermon translation 100+ languages | https://faith.tools/artificial-intelligence-ai |
 | F-025 | Sermons.app | NewCulture Consulting | G | unverified-method | Coaching model; no-training-on-sermons claim | https://faith.tools/artificial-intelligence-ai |
 | F-026 | SermonSpark | Missional Software | G | unverified-method | Sermon prep suite | https://faith.tools/artificial-intelligence-ai |
 | F-027 | Bible Vector Search | Antioch Tech | F | active | Embedding search; open source | https://faith.tools/app/816-faith-assistant |
 | F-028 | GetSermons / Preachai | GetSermons | F | unverified-method | Sermon library + Preachai chat | https://faith.tools/artificial-intelligence-ai |
+| F-029 | Theos Scripture Intelligence | Theos Scripture Intelligence | F | unverified-method | AI Bible study with in-text chat and custom journeys; distinct from Theos think tank B-016 | https://jointheos.io/ |
 | G-001 | Logos Bible Software AI | Faithlife / Logos | G | active | Library-grounded study aid | https://aligned.church/blog/best-ai-for-churches-comparison-2026 |
 | G-002 | Sermon AI | Sermon AI | G | unverified-method | Dedicated sermon prep suite | https://aligned.church/blog/best-ai-sermon-writer-comparison-2026 |
 | G-003 | Aligned | Aligned | G | unverified-method | Doctrine-configurable workspace | https://aligned.church/blog/best-ai-for-churches-comparison-2026 |
@@ -163,20 +143,5 @@ Updated: 2026-10-01
 | G-010 | SoapBox / ORA / Faith API | SoapBox | F | unverified-method | Super-app + Faith API/MCP | https://faith.tools/artificial-intelligence-ai |
 | G-011 | Psalmlog | Psalmlog | F | unverified-method | Journal + Scripture reflection | https://faith.tools/artificial-intelligence-ai |
 | G-012 | Gospel Coach (tool view) | NAMB / Life On Mission | G | active | Same product family as B-024 | https://faith.tools/artificial-intelligence-ai |
-
 | G-013 | Equip | Ministry Brands | G | active | Ministry-built AI platform for sermon preparation and content amplification; church content not used to train public models | https://www.ministrybrands.com/ |
 | G-014 | Theo | ExperienceChurch.tv | G | active | Church website AI assistant; self-identifies as AI; crisis topics handed to a pastor | https://www.einpresswire.com/article/939461650/experience-church-launches-theo-an-ai-assistant-built-to-answer-fast |
-| F-029 | Theos Scripture Intelligence | Theos Scripture Intelligence | F | unverified-method | AI Bible study with in-text chat and custom journeys; distinct from Theos think tank B-016 | https://jointheos.io/ |
-
-## History
-
-### 2026-10-01
-- Restored this file after the 2026-09-13 commit 7658343 replaced it with the 9-byte string `see local`.
-- Source of the 132 rows: blob 1fb9da98f138d6914edd514461a679949f30312b on commit d48afd6abcd862a6e6dd816471892814a65b2f06 (2026-09-10 register).
-- Appended three rows researched on 2026-09-13 but never successfully written: G-013 Equip, G-014 Theo, F-029 Theos Scripture Intelligence. Total 135.
-- No IDs deleted or reused. Category column left as in the 2026-09-10 register (some ID prefixes differ from Cat).
-
-### 2026-09-10
-- Unified seed (86) + restored session records (46) into this file. Total 132.
-- Added Parent column.
-- Older split files moved to archive/2026-09-10/.
