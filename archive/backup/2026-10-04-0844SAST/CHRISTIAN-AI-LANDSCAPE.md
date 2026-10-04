@@ -1,10 +1,10 @@
 # CHRISTIAN-AI-LANDSCAPE
 
-Updated 2026-10-04. Counts match DATABASE.md (145 rows). The narrative below was drafted against the 2026-10-02 register of 135 rows and does not yet narrate B-025–B-027, F-036–F-038, or G-023–G-026.
+Updated 2026-10-02 from the copy in archive/2026-10-02/CHRISTIAN-AI-LANDSCAPE.md. Counts match DATABASE.md (135 rows). Each category's analysis now follows that category's description.
 
 # The Christian AI Landscape: A Ten-Minute Story
 
-**Source:** ainranian/christian-ai-tracker — 145 initiatives in DATABASE.md. Categories: Holy See / Catholic magisterial and university (17), Protestant / evangelical / ecumenical research (27), Digital theology centres, journals, working groups (20), Bible translation and missions engineering (13), Faith-tech platforms, incubators, networks (14), Consumer Bible / prayer / companion apps (30), Church operations and sermon tools (24).
+**Source:** ainranian/christian-ai-tracker — 135 initiatives in DATABASE.md. Categories: Holy See / Catholic magisterial and university (17), Protestant / evangelical / ecumenical research (24), Digital theology centres, journals, working groups (20), Bible translation and missions engineering (13), Faith-tech platforms, incubators, networks (14), Consumer Bible / prayer / companion apps (27), Church operations and sermon tools (20).
 **Purpose:** A spoken narrative for explaining the landscape in about ten minutes. Companion to DATABASE.md (the register). This file is the story; the register is the table.
 **Status:** Draft. Not verified against every row. The source ledger in the README appendix is archival and stops at W-074.
 
@@ -14,7 +14,7 @@ Updated 2026-10-04. Counts match DATABASE.md (145 rows). The narrative below was
 
 The landscape splits into two halves: **institutions that think about AI**, and **products that use it**. The institutions are mostly Catholic and Protestant research bodies, universities, and networks. The products are overwhelmingly consumer apps and church tools.
 
-The single most important technical finding across the 2026-10-02 set of 135 initiatives, not re-counted against the eight rows added later the same week: almost nobody has published how their models are actually trained. The one exception is Bible translation — SIL's Scripture Forge, Serval, and Slingshot are the only initiatives with real fine-tuning documentation. Everything else is RAG, prompt constraints, or undisclosed wrappers on commercial models. That is the honest baseline.
+The single most important technical finding across all 135 initiatives: almost nobody has published how their models are actually trained. The one exception is Bible translation — SIL's Scripture Forge, Serval, and Slingshot are the only initiatives with real fine-tuning documentation. Everything else is RAG, prompt constraints, or undisclosed wrappers on commercial models. That is the honest baseline.
 
 ---
 

@@ -2,22 +2,22 @@
 
 https://github.com/ainranian/christian-ai-tracker
 
-Updated: 2026-10-04
+Updated: 2026-10-02
 
 ## Current structure
 
-Live files are at the repository root. Weekly notes from 2026-10-04 also exist under `reports/` and `archive/reports/`. The README appendix is a historical artefact, not the register.
+Four files live at the repository root. Everything else is under `archive/`.
 
 | Path | Role |
 |---|---|
-| DATABASE.md | Single source of truth. One row per named initiative, including the Source URL. 145 IDs after the 2026-10-04 runs. |
-| README.md | Process, rules, categories, and history. The appendix ledger and ID list are historical only. |
+| DATABASE.md | Register only. One row per named initiative. 135 IDs after the 2026-10-02 prefix renumber. |
+| README.md | Process, rules, categories, history, and the source ledger (appendix). |
 | CHRISTIAN-AI-LANDSCAPE.md | Ten-minute narrative. Not a register. Renamed from LANDSCAPE-STORY.md. |
 | OPENISSUES.md | Issue register. IDs are OI-nnn. Status values: `open`, `in-progress`, `fixed`, `rejected`. |
 | archive/2026-09-10/ | Seed and restore stubs from 2026-09-10. |
 | archive/2026-09-13/ | Broken 38-byte DATABASE.md copy from 2026-09-13. |
 | archive/backup/2026-10-01-2343SAST/ | Full tree copied before the 2026-10-01 split. |
-| archive/reports/ | Weekly and verification reports. 2026-10-04 notes are here and in reports/. |
+| archive/reports/ | Weekly and verification reports, including 2026-10-01-verification.md. |
 | archive/merged-2026-10-02/ | Former PROCESS.md, DATABASE-WATCH.md, SOURCE-WATCH.md, and SOURCES.md. Those four files are pointers. Their content is in this README. |
 
 Sunday 07:00 Africa/Johannesburg: load DATABASE.md, add or update rows, never delete or reuse IDs, and copy the live tree to archive/backup/YYYY-MM-DD-HHMM/ before replacing a file.
@@ -36,7 +36,7 @@ Former files: archive/merged-2026-10-02/.
 3. Do not delete or reuse IDs. Exception on 2026-10-02 (OI-006): fourteen rows were renumbered so the ID prefix matches Cat. Vacated IDs stay unused. See OI-015.
 4. Diff names against last week before finishing. Explain any disappearance.
 5. Replace a live file only after copying the tree to archive/backup/YYYY-MM-DD-HHMM/.
-6. The Source column in DATABASE.md is the live URL. The appendix ledger below is a historical artefact. Do not update it. The check method remains in the source-watch section.
+6. Source watches stay in the appendix of this README. The check method is in the source-watch section below.
 
 
 ## Rules, categories, and history

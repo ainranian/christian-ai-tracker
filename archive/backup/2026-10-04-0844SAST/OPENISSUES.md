@@ -67,4 +67,3 @@ Not a register. Each item has one ID. Do not reuse an ID.
 | 2026-10-02 | OI-001 | open | open | Scope narrowed. Not every note page-checked. |
 | 2026-10-02 | OI-002 | open | open | ERLC page confirmed. Other 403 hosts not all opened. |
 | 2026-10-02 | OI-004 | open | open | Overview page loaded. Blog URL not re-fetched. |
-| 2026-10-04 | OI-016 | open | open | Confirmed: DATABASE.md Source column is the live URL. README appendix remains historical and is not updated. |
